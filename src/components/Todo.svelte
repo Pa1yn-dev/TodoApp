@@ -8,7 +8,6 @@
 
 	function addTodo() {
 		todos = [...todos, { id: newTodoId, name: newTodoName, completed: false }];
-		newTodoName = "";
 	}
 
     function deleteTodo(todo) {
